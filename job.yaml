@@ -11,7 +11,7 @@ resources:
           notebook_task:
             notebook_path: /Workspace/Users/enzoyhirotani@gmail.com/RL_atividade2/Landing_to_Bronze
             source: WORKSPACE
-        - task_key: to_silver
+        - task_key: to_Silver
           depends_on:
             - task_key: to_Bronze
           notebook_task:
@@ -19,7 +19,7 @@ resources:
             source: WORKSPACE
         - task_key: to_Gold
           depends_on:
-            - task_key: to_silver
+            - task_key: to_Silver
           notebook_task:
             notebook_path: /Workspace/Users/enzoyhirotani@gmail.com/RL_atividade2/Silver_to_Gold
             source: WORKSPACE
